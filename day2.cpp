@@ -120,7 +120,7 @@ void part2() {
                    else if (bunch_o_ones(q) == false && zero_one_pattern(q, l-1) == false)
                        continue;
                    sum += i;
-                   cout << pre_ll << " " << sum << " " << i << "\n";
+    //               cout << pre_ll << " " << sum << " " << i << "\n";
                    break;
                }
            }
